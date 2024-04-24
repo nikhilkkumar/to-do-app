@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Management</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <button id="task-list" onclick="navigateToTaskList()">Task List</button>
+            <button id="my-account" onclick="navigateToAccount()">My account</button>
+            <button id="log-out" onclick="logOut()">Log out</button>
+        </nav>
+        <div class="chat-window">
+            <!-- Chat content will go here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Type message" id="chat-box">
+            <button onclick="sendMessage()">▶</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
